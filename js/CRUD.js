@@ -13,8 +13,8 @@ export class CRUD{
 	}
 
     #setData(){
-        let dateRepository = this.#get(this.#tableName)
-    	this.#data = dateRepository === null ? [] : dateRepository;
+        let dataRepository = this.#get(this.#tableName)
+    	this.#data = dataRepository === null ? [] : dataRepository;
 	}
     
     #tableNameValidate(tableName){
