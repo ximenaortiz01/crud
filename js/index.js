@@ -1,4 +1,4 @@
-import { CRUD } from "../CRUD.js";
+import { CRUD } from "./CRUD.js";
 
 function app(){
     let crud = new CRUD("ejemplo");
